@@ -1,0 +1,307 @@
+﻿@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url('fonts/OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('fonts/OpenSans-Semibold.ttf') format('truetype');
+}
+
+body, html {
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    /*font-size: 70%;*/
+}
+
+* {
+    font-family: OpenSans-Light;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #103a6b;
+    margin-top:8px;
+}
+
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+h6 {
+    font-size: 20px;
+
+}
+.btn {
+    font-size: 12px;
+}
+
+.relative {
+    position: relative;
+}
+
+.texto-cotizacion-cobertura {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    padding: 4px 8px;
+    background-color: #856c3b;
+    color: #fff;
+    display: none;
+}
+
+.top-asistente {
+    background-image: url(images/topbar.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+#logo {
+    background-image: url(images/logo.png);
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+}
+
+.top-contenido-asistente {
+    width: 100%;
+    height: 130px;
+}
+
+.btn-circle {
+    border-radius: 0px;
+    border: 1px solid #103a6b;
+    background-color: #e6e7e9;
+    color: #103a6b;
+    -webkit-appearance:inherit;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+    background-color: #1D8649;
+    border-color: #1D8649;
+    color: #fff;
+}
+
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:focus {
+    background-color: rgb(130,130,130);
+    border-color: rgb(130,130,130);
+    color: #fff;
+}
+
+.stepwizard {
+    position:relative;
+}
+
+.stepwizard-row {
+    position: relative;
+}
+
+.stepwizard-step .btn-circle {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: OpenSans-Bold;
+    width: auto;
+    height: auto;
+    color: rgb(180,180,180);
+    white-space:nowrap;
+}
+
+.stepwizard-step .btn:after {
+    content: "]";
+    font-size: 32px;
+}
+
+.stepwizard-step .btn:before {
+    content: "[";
+    font-size: 32px;
+}
+
+.stepwizard-step .btn-default, .stepwizard-step .btn-primary {
+    border: none;
+    background: #Fff;
+}
+
+.stepwizard-step .btn-primary {
+    color: #1D8649;
+}
+
+.stepwizard-step p {
+    color: #6c6d70;
+    font-family: OpenSans-Light;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.stepwizard-row:before {
+    display: none;
+}
+
+.top-contrato {
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+strong, strong * {
+    font-family: OpenSans-Semibold;
+    font-weight: normal;
+}
+
+.texto-resaltado {
+    color: #103a6b;
+}
+
+hr {
+    border-color: #ccc;
+}
+
+.form-control {
+    border-radius: 0px;
+    border: none;
+    color: #333;
+    font-family: OpenSans-Regular;
+    background-color: rgb(245,245,245);
+}
+
+.form-control[readonly], fieldset[readonly] {
+    border-radius: 0px;
+    border: none;
+    background-color: rgb(245,245,245);
+}
+
+.input-group, .input-group-btn button {
+    border-radius: 0px;
+    border: none;
+}
+.input-group, .input-group-btn span {
+    color: #fff;
+}
+
+.input-group, .form-control {
+    background-color: rgb(245,245,245);
+}
+
+.input-group-btn .btn-success, .input-group-btn button.btn-success:active {
+    background-color: #1D8649;
+    border: none;
+    color: #fff;
+}
+
+.input-group-btn .btn-danger, .input-group-btn button.btn-danger:active {
+    background-color: rgb(130,130,130);
+    border: none;
+    color: #fff;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.datepicker{
+    border-radius: 0px!important;
+}
+
+.panel {
+    border-radius: 0px;
+    margin-bottom: 8px;
+    border: 1px solid #eee;
+}
+
+.panel-default {
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+}
+
+.panel-heading {
+    background-color: #f1f2f3;
+    padding: 8px;
+    border-radius: 0px;
+}
+
+.panel-body {
+    padding: 8px;
+}
+
+.panel-default .panel-body table td {
+    color: #333;
+}
+
+.panel-default .panel-body table td label {
+    color: #333;
+}
+
+
+
+.modal-content {
+    border-radius: 0px;
+    background-color: #e6e7e9;
+}
+
+.modal-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.modal-footer {
+    border-top: 1px solid #ccc;
+}
+
+.modal-body pre {
+    border-radius: 0px;
+    border-color: #6c6d70;
+    color: #333;
+    font-family: OpenSans-Regular;
+    overflow: auto;
+}
+
+.form-control {
+    font-size: 12px;
+}
+
+.form-control {
+    font-size: 12px;
+}
+
+#modal-clientes-content table td {
+    font-size: 12px;
+    padding: 2px;
+}
+
+#modal-clientes-content table th {
+    font-size: 12px;
+    padding: 2px;
+}
